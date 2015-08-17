@@ -14,6 +14,9 @@
 		580C46731B8198DA00A2FFD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580C46721B8198DA00A2FFD4 /* Images.xcassets */; };
 		580C46761B8198DA00A2FFD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580C46741B8198DA00A2FFD4 /* LaunchScreen.xib */; };
 		580C46821B8198DA00A2FFD4 /* TinderSimpleSwipeCardsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580C46811B8198DA00A2FFD4 /* TinderSimpleSwipeCardsSwiftTests.swift */; };
+		580C468E1B819C3600A2FFD4 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580C468B1B819C3600A2FFD4 /* DraggableView.swift */; };
+		580C468F1B819C3600A2FFD4 /* DraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580C468C1B819C3600A2FFD4 /* DraggableViewBackground.swift */; };
+		580C46901B819C3600A2FFD4 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580C468D1B819C3600A2FFD4 /* OverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		580C467B1B8198DA00A2FFD4 /* TinderSimpleSwipeCardsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSimpleSwipeCardsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580C46801B8198DA00A2FFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		580C46811B8198DA00A2FFD4 /* TinderSimpleSwipeCardsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSimpleSwipeCardsSwiftTests.swift; sourceTree = "<group>"; };
+		580C468B1B819C3600A2FFD4 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		580C468C1B819C3600A2FFD4 /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
+		580C468D1B819C3600A2FFD4 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		580C46651B8198DA00A2FFD4 /* TinderSimpleSwipeCardsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				580C468B1B819C3600A2FFD4 /* DraggableView.swift */,
+				580C468C1B819C3600A2FFD4 /* DraggableViewBackground.swift */,
+				580C468D1B819C3600A2FFD4 /* OverlayView.swift */,
 				580C46681B8198DA00A2FFD4 /* AppDelegate.swift */,
 				580C466D1B8198DA00A2FFD4 /* ViewController.swift */,
 				580C466F1B8198DA00A2FFD4 /* Main.storyboard */,
@@ -217,7 +226,10 @@
 			files = (
 				580C466E1B8198DA00A2FFD4 /* ViewController.swift in Sources */,
 				580C466C1B8198DA00A2FFD4 /* TinderSimpleSwipeCardsSwift.xcdatamodeld in Sources */,
+				580C468E1B819C3600A2FFD4 /* DraggableView.swift in Sources */,
+				580C46901B819C3600A2FFD4 /* OverlayView.swift in Sources */,
 				580C46691B8198DA00A2FFD4 /* AppDelegate.swift in Sources */,
+				580C468F1B819C3600A2FFD4 /* DraggableViewBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
